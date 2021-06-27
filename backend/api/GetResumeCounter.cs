@@ -6,8 +6,9 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
+using Newtonsoft.Json;  
 using System.Net.Http;
+using System.Text;
 
 namespace Company.Function
 {
@@ -25,7 +26,7 @@ namespace Company.Function
             updatedCounter = counter;
             updatedCounter.Count +=1;
 
-            var jsonToReturn = Json.Convert.SerializedObject(counter);
+            var jsonToReturn = JsonConvert.SerializeObject(counter);
 
             return new HttpResponseMessage(System.Net.HttpStatusCode.OK)
             {
