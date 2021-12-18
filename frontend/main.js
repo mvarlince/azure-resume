@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', (event) =>{
 })
 
 
-const functionApi = '';
+const functionApi = 'http://localhost:7071/api/GetResumeCounter';
 
 // Javascript code that will grab the JSON that is provided from the API
 // grab the correct part of that JSON and show it on HTM

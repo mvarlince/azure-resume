@@ -4,4 +4,4 @@ My own Azure resume.
 ## First steps:
 
 - Front end contains the website
-- main.js contains visitor counter code.
+- main.js contains visitor counter code.S
