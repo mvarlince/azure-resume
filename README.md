@@ -1,7 +1,5 @@
-# azure-resume
-My own Azure resume.
+# My Resume Deployed on Azure
 
-## First steps:
+This webpage is hosted on Microsoft Azure with Blob Storage, Azure Functions and CosmosDB. I developed a CI/CD workflow with GitHub and deployed a static web app with a serverless database.
 
-- Front end contains the website
-- main.js contains visitor counter code.S
+!['app'](./frontend/images/app.png) 
